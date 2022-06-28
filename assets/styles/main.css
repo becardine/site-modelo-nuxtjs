@@ -5,19 +5,33 @@
     --color-medium: hsl(175, 100%, 12%);
     --color-light: hsl(278, 27%, 92%);
     --color-contrast: hsl(33, 83%, 50%);
-    --color-hover: hsla(33, 83%, 50%, 0.815);
+    --color-hover: hsla(33, 83%, 50%, 0.863);
 
     --color-contrast-medium: hsl(310, 68%, 21%);
 
-    --font-text: 'Outfit', sans-serif;
-    --font-title: 'Sacramento', cursive;
+    --font-text: 'DM Sans', sans-serif;
 }
 
 body {
     font-family: var(--font-text);
-    font-weight: 300;
+    font-weight: 400;
 
     color: #000;
 
     background: var(--color-light);
+
+}
+
+.wrapper {
+    width: min(70rem, 100%);
+    display: grid;
+}
+
+/* Botões */
+.btnToSchedule {
+    background: var(--color-contrast);
+    transition: background .2s;
+}
+.btnToSchedule:hover {
+    background: var(--color-hover);
 }
