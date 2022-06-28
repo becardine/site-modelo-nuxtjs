@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Sacramento&display=swap');
+
+:root {
+    --color-dark: hsl(174, 95%, 8%);
+    --color-medium: hsl(175, 100%, 12%);
+    --color-light: hsl(278, 27%, 92%);
+    --color-contrast: hsl(33, 83%, 50%);
+    --color-hover: hsla(33, 83%, 50%, 0.815);
+
+    --color-contrast-medium: hsl(310, 68%, 21%);
+
+    --font-text: 'Outfit', sans-serif;
+    --font-title: 'Sacramento', cursive;
+}
+
+body {
+    font-family: var(--font-text);
+    font-weight: 300;
+
+    color: #000;
+
+    background: var(--color-light);
+}

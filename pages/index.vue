@@ -1,9 +1,10 @@
 <template>
-  <Tutorial/>
+  <div>
+    <Navmenu />
+    <Main />
+  </div>
 </template>
 
 <script>
-export default {
-  name: 'IndexPage'
-}
+
 </script>
