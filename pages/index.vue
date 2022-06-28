@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navmenu />
-    <header class="wrapper d-flex mx-auto py-5 align-items-center gap-2">
+    <header class="wrapper d-flex py-5 align-items-center gap-2">
     <div class="col-lg-8">
       <h1 class="fw-bold">Ajudamos sua empresa se destacar no meio digital.</h1>
       <p class="text-secondary my-4 mb-5">
@@ -24,6 +24,10 @@
       />
     </div>
   </header>
+
+  <main>
+    <Professionals />
+  </main>
   </div>
 </template>
 <style scoped>

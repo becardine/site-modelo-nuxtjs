@@ -14,7 +14,6 @@
 
 body {
     font-family: var(--font-text);
-    font-weight: 400;
 
     color: #000;
 
@@ -25,6 +24,8 @@ body {
 .wrapper {
     width: min(70rem, 100%);
     display: grid;
+
+    margin-inline: auto;
 }
 
 /* Botões */
