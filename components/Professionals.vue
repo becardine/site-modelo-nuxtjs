@@ -4,7 +4,7 @@
     <h4>Nossos Profissionais</h4>
     <h2 class="fs-5">Conheça quem faz seu negócio decolar</h2>
 
-    <div class="d-flex justify-content-evenly my-5">
+    <div class="d-flex my-5 justify-content-around">
       <b-card
         v-for="professional in professionals"
         :key="professional"
@@ -28,12 +28,6 @@
   </section>
 </template>
 <style scoped>
-h4 {
-  font-size: 1rem;
-  color: var(--color-medium);
-  font-weight: 700;
-}
-
 .btnInfo {
   background: var(--color-medium);
 }

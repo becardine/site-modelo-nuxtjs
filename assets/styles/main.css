@@ -28,6 +28,12 @@ body {
     margin-inline: auto;
 }
 
+h4 {
+  font-size: 1rem;
+  color: var(--color-medium);
+  font-weight: 700;
+}
+
 /* Botões */
 .btnToSchedule {
     background: var(--color-contrast);
